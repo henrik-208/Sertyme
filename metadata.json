@@ -1,0 +1,6 @@
+{
+  "name": "Sertyme",
+  "description": "A deposit keeper built on Arc for rentals and bookings with fixed claim windows and automatic release.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

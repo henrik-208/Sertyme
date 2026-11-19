@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sertyme</title>
+    <meta name="description" content="A deposit keeper built on Arc for rentals and bookings with fixed claim windows and automatic release." />
+    <meta property="og:title" content="Sertyme" />
+    <meta property="og:description" content="A deposit keeper built on Arc for rentals and bookings with fixed claim windows and automatic release." />
+    <meta property="og:type" content="website" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      try {
+        var d = Object.getOwnPropertyDescriptor(window, 'fetch');
+        if (d && d.get && !d.set && d.configurable) {
+          var f = window.fetch;
+          Object.defineProperty(window, 'fetch', {
+            value: f,
+            writable: true,
+            enumerable: d.enumerable,
+            configurable: true,
+          });
+        }
+      } catch (e) {}
+    </script>
+  </head>
+  <body class="bg-[#F4F1EA] text-[#2F3E34] antialiased selection:bg-[#C9A24B]/30 selection:text-[#2F3E34]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

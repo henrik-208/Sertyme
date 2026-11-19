@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  --color-linen: #F4F1EA;
+  --color-linen-deep: #EBE6DC;
+  --color-crisp: #FFFFFF;
+  --color-pine: #2F3E34;
+  --color-pine-soft: #435449;
+  --color-stone: #636B60;
+  --color-stone-muted: #8A8F85;
+  --color-sage: #9CAF88;
+  --color-sage-wash: #E6ECE0;
+  --color-brass: #C9A24B;
+  --color-brass-hover: #B8913A;
+  --color-brass-soft: #EFE4C8;
+  --color-crimson: #9E2A2B;
+  --color-crimson-wash: #F8E6E6;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    background-color: #F4F1EA;
+    color: #2F3E34;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #F4F1EA;
+    color: #2F3E34;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4 {
+    text-wrap: balance;
+    color: #2F3E34;
+  }
+
+  :focus-visible {
+    outline: 2px solid #C9A24B;
+    outline-offset: 2px;
+  }
+}
+
+.editorial-card {
+  background-color: #FFFFFF;
+  border-radius: 1.25rem;
+  border: 1px solid rgba(156, 175, 136, 0.28);
+  box-shadow: 0 8px 30px rgba(47, 62, 52, 0.05), 0 1px 3px rgba(47, 62, 52, 0.03);
+}
+
+.editorial-input {
+  background-color: #FFFFFF;
+  border: 1px solid rgba(138, 143, 133, 0.35);
+  border-radius: 0.75rem;
+  color: #2F3E34;
+  transition: border-color 180ms ease-out, box-shadow 180ms ease-out;
+}
+
+.editorial-input:focus {
+  outline: none;
+  border-color: #C9A24B;
+  box-shadow: 0 0 0 3px rgba(201, 162, 75, 0.18);
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

@@ -1,0 +1,226 @@
+---
+name: Mindful Editorial
+colors:
+  surface: '#fcf9f2'
+  surface-dim: '#dcdad3'
+  surface-bright: '#fcf9f2'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f6f3ec'
+  surface-container: '#f1eee7'
+  surface-container-high: '#ebe8e1'
+  surface-container-highest: '#e5e2db'
+  on-surface: '#1c1c18'
+  on-surface-variant: '#4e4637'
+  inverse-surface: '#31312c'
+  inverse-on-surface: '#f3f0e9'
+  outline: '#7f7665'
+  outline-variant: '#d1c5b2'
+  surface-tint: '#795902'
+  primary: '#795902'
+  on-primary: '#ffffff'
+  primary-container: '#c9a24b'
+  on-primary-container: '#4f3900'
+  inverse-primary: '#ebc166'
+  secondary: '#526257'
+  on-secondary: '#ffffff'
+  secondary-container: '#d5e7d9'
+  on-secondary-container: '#58685d'
+  tertiary: '#526442'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#9bae87'
+  on-tertiary-container: '#324223'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#ffdf9e'
+  primary-fixed-dim: '#ebc166'
+  on-primary-fixed: '#261a00'
+  on-primary-fixed-variant: '#5b4300'
+  secondary-fixed: '#d5e7d9'
+  secondary-fixed-dim: '#bacbbd'
+  on-secondary-fixed: '#101f16'
+  on-secondary-fixed-variant: '#3b4a40'
+  tertiary-fixed: '#d5e9bf'
+  tertiary-fixed-dim: '#b9cda4'
+  on-tertiary-fixed: '#111f05'
+  on-tertiary-fixed-variant: '#3b4c2c'
+  background: '#fcf9f2'
+  on-background: '#1c1c18'
+  surface-variant: '#e5e2db'
+typography:
+  display:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 48px
+    fontWeight: '600'
+    lineHeight: 56px
+    letterSpacing: -0.02em
+  display-mobile:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 36px
+    fontWeight: '600'
+    lineHeight: 44px
+    letterSpacing: -0.02em
+  headline-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 32px
+    fontWeight: '600'
+    lineHeight: 40px
+    letterSpacing: -0.015em
+  headline-lg-mobile:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 26px
+    fontWeight: '600'
+    lineHeight: 34px
+    letterSpacing: -0.015em
+  headline-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 24px
+    fontWeight: '500'
+    lineHeight: 32px
+    letterSpacing: -0.01em
+  headline-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 20px
+    fontWeight: '500'
+    lineHeight: 28px
+  body-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 18px
+    fontWeight: '400'
+    lineHeight: 28px
+  body-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 26px
+  body-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 22px
+  label-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 14px
+    fontWeight: '600'
+    lineHeight: 20px
+    letterSpacing: 0.02em
+  label-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 12px
+    fontWeight: '600'
+    lineHeight: 16px
+    letterSpacing: 0.04em
+  caption:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 11px
+    fontWeight: '500'
+    lineHeight: 16px
+    letterSpacing: 0.06em
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1.5rem
+  gutter-mobile: 1rem
+  margin: 3rem
+  margin-mobile: 1.25rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+  space-2xl: 4rem
+---
+
+## Brand & Style
+
+This design system embodies an intentional, mindful editorial atmosphere. It balances the meditative calm of wellness journals with the typographic rigor of high-end publishing. 
+
+The aesthetic is organic, grounded, and quiet. Interfaces prioritize spaciousness, clear temporal rhythms, and tactile warmth over high-frequency feedback loops. A persistent, understated timeline motif runs throughout, grounding interactions in moments and progression rather than urgency.
+
+- **Movement:** Organic Modernism meets Editorial Serenity.
+- **Tone:** Grounded, contemplative, refined, patient.
+- **Motion Philosophy:** Ambient pacing with lingering ease-outs, subtle opacity shifts, and deliberate linear progression.
+
+## Colors
+
+The palette draws directly from tactile paper stocks, dried botanicals, and patinated metals. Contrast is achieved thoughtfully without stark polarities.
+
+- **Linen (`#F4F1EA`):** Canvas background. Emits zero digital glare and mimics heavyweight unbleached paper.
+- **Crisp White (`#FFFFFF`):** Reserved for elevated cards, active panels, and floating sheets to generate distinct tactile depth against Linen.
+- **Deep Pine (`#2F3E34`):** Primary ink for titles, body copy, key iconography, and reversed dark sections. Provides authoritative contrast without the harshness of pure black.
+- **Stone (`#8A8F85`):** Muted metadata, captions, inactive timeline nodes, and subtle dividers.
+- **Sage (`#9CAF88`):** Restful wash tone used for soft badges, secondary pills, progress bars, and passive timeline tracks.
+- **Key Brass (`#C9A24B`):** Warm luminescent accent used purposefully for dates, focal callouts, active milestones, and primary action surfaces. Primary brass buttons always take Deep Pine typography for grounded legibility.
+
+## Typography
+
+Typography relies entirely on Plus Jakarta Sans, combining geometric cleanliness with gentle, humanist stroke variations. 
+
+- **Headings:** Set in medium to semi-bold weights with slight negative letter tracking to retain editorial structure without appearing aggressive.
+- **Body:** Generous line heights (`lineHeight: 26px` on 16px body) allow long-form reflection and reading without cognitive fatigue.
+- **Dates & Highlights:** Often set using `label-sm` or `caption` with expanded tracking (`0.04em` to `0.06em`) in uppercase Key Brass, providing a disciplined journal-like ledger layout.
+
+## Layout & Spacing
+
+The layout is structured around an editorial grid with breathing room at every breakpoint.
+
+- **Grid Architecture:** 12-column responsive layout on desktop with a maximum reading container width of 1140px; collapses to 8 columns on tablet and 4 columns on mobile.
+- **Vertical Rhythm:** Rooted in consistent multiples of 8px (via `space-*`). Generous page margins ensure cards never touch screen edges on handheld viewports.
+- **Timeline Alignment:** On desktop and tablet, an offset left rail (48px wide) serves as the anchor track for the subtle timeline motif, aligning milestone nodes precisely with adjacent card headers.
+
+## Elevation & Depth
+
+Depth is tactile and warm, avoiding harsh directional shadows or cold synthetic glows.
+
+- **Tonal Layers:** The primary contrast occurs between canvas (`#F4F1EA`) and surface (`#FFFFFF`). Secondary panels or sub-sections employ subtle Sage washes (`rgba(156, 175, 136, 0.12)`) or deep inverted sections in `#2F3E34`.
+- **Warm Shadow:** Cards and floating modules utilize a diffused, low-opacity warm umber drop shadow: `0 8px 30px rgba(47, 62, 52, 0.05), 0 1px 3px rgba(47, 62, 52, 0.03)`.
+- **Borders:** Crisp White cards feature an ultra-delicate outline to preserve edge definition against Linen: `1px solid rgba(156, 175, 136, 0.25)`.
+
+## Shapes
+
+The geometric framework balances soft contours with structured integrity.
+
+- **Cards & Surfaces:** Standardized to a generous 20px (`1.25rem`) border radius, imparting an organic, river-stone softness.
+- **Controls & Small Badges:** Form inputs, buttons, and milestone badges maintain matching rounded curvature or fully pill-shaped contours for ergonomic touch interactions.
+- **Timeline Rail:** Connective timeline lines utilize rounded terminal caps (`stroke-linecap: round`) and 8px circular anchor nodes.
+
+## Components
+
+### Buttons
+- **Primary:** Filled in Key Brass (`#C9A24B`) with Deep Pine (`#2F3E34`) text in `label-md`. Roundedness is 12px or pill-shaped. Soft hover transitions with a gentle brightness scale (`filter: brightness(0.96)`) and 150ms ease-out.
+- **Secondary / Ghost:** Transparent surface with a 1px border in Sage (`#9CAF88`) or Deep Pine text.
+- **Subtle Surface:** Sage at 15% opacity with Deep Pine typography.
+
+### Cards & Content Modules
+- Surfaces are Crisp White (`#FFFFFF`) with a 20px border radius, warm drop shadow, and a 1px border in `rgba(156, 175, 136, 0.2)`. 
+- Padding ranges from `space-lg` (24px) on mobile to `space-xl` (40px) on desktop to guarantee uncluttered interior space.
+
+### Chips & Badges
+- Background in Sage wash (`rgba(156, 175, 136, 0.18)`), Deep Pine text, 12px vertical alignment padding, and soft rounded ends.
+- Highlighting chips (e.g., active dates or milestones) use Key Brass outline or soft Brass wash with Deep Pine text.
+
+### Persistent Timeline Motif
+- A continuous, 2px vertical guide wire in `rgba(138, 143, 133, 0.25)` or Sage connects content chronologically.
+- Milestone nodes are 10px circular dots: hollow with a Sage border for pending states, solid Key Brass with an inner white center for the active state, and Deep Pine for completed records.
+
+### Progress Indicators & Sliders
+- Tracks are finished in soft Sage at 20% opacity.
+- Fill bars transition smoothly in Key Brass or Deep Pine with gentle, non-linear easing.
+
+### Input Fields
+- Background in Crisp White (`#FFFFFF`), border in Stone (`#8A8F85`) at 30% opacity, 12px corner radius, and Deep Pine text.
+- Focus state softens the border to Key Brass (`#C9A24B`) accompanied by a subtle 2px brass halo (`rgba(201, 162, 75, 0.15)`).
+
+### Selection Controls (Checkboxes & Radios)
+- Circular or soft-corner checks with Deep Pine fills and warm white icons.
+- Inactive states remain bordered by Stone with zero fill to maintain simplicity.
+
+### Motion & Transitions
+- Micro-interactions use slow, meditative durations (300ms–500ms) with `cubic-bezier(0.16, 1, 0.3, 1)`. 
+- Countdown and numerical transitions avoid rapid tumbling; they resolve through serene cross-fades and smooth, calm opacity slides.
